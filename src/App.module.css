@@ -1,0 +1,19 @@
+.App {
+  background-color: #383232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container {
+  padding: 20px;
+  border: 4px solid #189ec6;
+  border-radius: 10px;
+  margin: 10% auto; /* Автоматическое центрирование по горизонтали и вертикали */
+  max-width: 80%; /* Максимальная ширина контейнера */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Вертикальное выравнивание содержимого */
+}
